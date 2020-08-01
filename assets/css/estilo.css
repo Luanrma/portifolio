@@ -1,0 +1,56 @@
+body{
+	background: rgb(37, 37, 37);
+}
+
+.prefacio{
+	background: rgb(20, 20, 20);
+	padding: 1.5rem 0rem 1.5rem 0rem;
+	margin-top: 5rem;
+}
+
+.primeira {
+	background: rgb(37, 37, 37);
+	/*background: #FF6B6C;*/
+	padding: 80px 0px 200px 0px;
+	position: relative;
+	z-index: 10;
+	clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw),0 100%);
+	margin-bottom: -10vw;
+}
+
+.segunda {
+	background: #88d3cf;
+	padding: 15rem 0px 50px 0px;
+}
+
+ .img-site {
+	transition: 0.5s ease;
+	width: 300px;
+	box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.763);	
+	transform: rotate(0deg);     
+}
+
+.img-site:hover {
+	transition: .5s ease;
+	opacity: 80%;
+	/*transform: rotate(0.5deg);*/
+	/*box-shadow: 0 0 1rem #FFC145;*/
+	box-shadow: 0 0 1rem #88d3cf;
+}
+
+.contato {
+	margin: 1rem 1rem 0rem 1rem;
+	padding: 1rem 0rem 0rem 0rem;
+	border-radius: 30pt;
+	background: rgb(37, 37, 37);
+	box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.763);
+}
+
+#navTop  {
+	transition: 0.5s ease-out;
+  }
+  
+#navDown {
+	transition: 0.3s ease-in;
+	background-color: rgb(2, 2, 2);
+}

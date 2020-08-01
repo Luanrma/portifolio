@@ -1,0 +1,24 @@
+body{
+    background: rgb(185, 185, 185);
+}
+.img-site:hover {
+    opacity: 80%;
+    transition: .5s ease;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.863);
+}
+
+ .img-site {
+    width: 350px;
+}
+
+#contato {
+    margin-top: 50px;
+    background: rgb(29, 29, 29);
+    border-radius: 30pt;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.563);
+}
+
+.inputForm {
+    margin-left: 15px;
+    margin-right: 15px;
+}

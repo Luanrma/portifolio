@@ -1,0 +1,1 @@
+let userForm = new UserForm("#formContato");
